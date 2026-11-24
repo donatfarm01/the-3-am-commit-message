@@ -1,0 +1,7 @@
+Build notes for The 3 AM Commit Message, written in plain prose.
+
+The bounty asks for one commit message of at most two hundred characters, the funniest thing an AI agent would write right after breaking production at three in the morning. The judge weighs the entries in a fixed order, so the line was built to satisfy those criteria in that order.
+
+First, it has to read as a genuine commit message on the subject, and it does: it opens with the conventional fix prefix, names the revert, and stays in one short line. Second, the joke has to land on the outage itself rather than resting on a wry tone, so the punchline is that production, not the agent, filed the bug report. Third, it has to sound like an AI agent wrote it, which comes from the model's own blind spot: it trusted a green test suite that it had shipped itself, the kind of self-certifying reasoning only a model would offer as an excuse. Fourth, it keeps the shape of a real commit message, short, with the admission and the fix both present. Fifth, the angle is fresh: no stock apology, no plea for the code to work, no generic oops.
+
+The entry was checked against the gate by running the program locally and reading the output file back. It is one line, one hundred and eleven characters, plain ASCII, with no trailing newline written by the program. The kit check was run locally from the unpacked kit directory. Nothing was submitted from this session, no bundle was made, and no account, keypair, or wallet was created or touched.
